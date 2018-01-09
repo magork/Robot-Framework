@@ -18,6 +18,7 @@ User must sign in to check out
 
 uj bongeeszo
     Open Browser  www.google.com  chrome
+    sleep  2
     Maximize Browser window
 
 
