@@ -16,7 +16,7 @@ Select Product from Search Results
     wait until page contains  Back to search results
 Add Product to Cart
     click button  id=add-to-cart-button
-    #wait until page contains  1 item added to Cart                              jbvirhbwivf
+    #wait until page contains  1 item added to Cart                                  jbvirhbwivf
 
 Begin Checkout
     click link  Proceed to Checkout
