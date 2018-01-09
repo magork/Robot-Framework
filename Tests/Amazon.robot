@@ -3,7 +3,7 @@ Documentation  This is some basic info about the whole suite
 Resource  ../Resources/Amazon.robot
 Resource  ../Resources/Common.robot
 
-#Library  Selenium2Library
+Library  Selenium2Library
 
 *** Test Cases ***
 User must sign in to check out
@@ -14,7 +14,11 @@ User must sign in to check out
     Amazon.Select Product from Search Results
     Amazon.Add Product to Cart
     Amazon.Begin Checkout
-    #Common.End Web Test
+    Common.End Web Test
+
+uj bongeeszo
+    Open Browser  www.google.com  chrome
+    Maximize Browser window
 
 
 
