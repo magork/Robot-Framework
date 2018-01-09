@@ -20,6 +20,7 @@ uj bongeeszo
     Open Browser  www.google.com  chrome
     sleep  2
     sleep  1
+    sleep  1
     Maximize Browser window
 
 

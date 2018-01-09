@@ -9,5 +9,5 @@ Begin Web Test
 
 End web Test
     sleep  2
-    sleep  1
+
     Close Browser

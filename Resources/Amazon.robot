@@ -20,5 +20,6 @@ Add Product to Cart
 
 Begin Checkout
     click link  Proceed to Checkout
+    sleep  1
     page should contain element  ap_signin1a_pagelet_title
     element text should be  ap_signin1a_pagelet_title  Sign In
